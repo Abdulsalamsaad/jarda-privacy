@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy — Jarda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #F7F8F6; --panel: #FFFFFF; --text: #14201C; --muted: #5B6B63;
+    --border: #E4E8E3; --accent: #16A34A; --navy: #0D1B2A;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg:#0B1210; --panel:#121B18; --text:#EAF1EC; --muted:#93A69C; --border:#223028; }
+  }
+  :root[data-theme="dark"] { --bg:#0B1210; --panel:#121B18; --text:#EAF1EC; --muted:#93A69C; --border:#223028; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font-family:'Tajawal',sans-serif; line-height:1.8;
+    padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px); }
+  .en { font-family:'Inter',sans-serif; direction:ltr; text-align:left; }
+  .hero { background:linear-gradient(160deg, var(--navy) 0%, #0F2A22 100%); color:#fff; padding:3rem 1.5rem; text-align:center; }
+  .mark { width:64px; height:64px; margin:0 auto 1.1rem; border-radius:18px;
+    background:linear-gradient(135deg,#86efac,#16A34A 60%,#0F2A22); display:flex; align-items:center; justify-content:center;
+    font-weight:900; font-size:1.6rem; color:#06150F; }
+  .hero h1 { font-size:clamp(1.5rem,5vw,2.1rem); font-weight:900; margin:0 0 0.4rem; }
+  .hero p { color:#B9C9BF; margin:0; font-size:0.9rem; }
+  .lang-tabs { display:flex; gap:0.5rem; justify-content:center; margin-top:1.5rem; }
+  .lang-tabs button { background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.25);
+    border-radius:999px; padding:0.5rem 1.2rem; font-size:0.85rem; font-weight:700; cursor:pointer; font-family:inherit; }
+  .lang-tabs button.active { background:#fff; color:var(--navy); }
+  main { max-width:720px; margin:0 auto; padding:2.5rem 1.5rem 4rem; }
+  .updated { font-size:0.82rem; color:var(--muted); text-align:center; margin-bottom:2.5rem; }
+  section { margin-bottom:2.1rem; }
+  h2 { font-size:1.12rem; font-weight:700; margin:0 0 0.7rem; display:flex; align-items:center; gap:0.6rem; }
+  h2 .num { width:26px; height:26px; border-radius:8px; background:var(--border); color:var(--muted);
+    font-size:0.8rem; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  p, li { font-size:0.97rem; }
+  ul { margin:0.5rem 0; padding-inline-start:1.4rem; }
+  li { margin-bottom:0.4rem; }
+  .card { background:var(--panel); border:1px solid var(--border); border-radius:16px; padding:1.2rem 1.35rem; }
+  .contact { background:var(--panel); border:1px solid var(--border); border-radius:20px; padding:1.6rem;
+    display:flex; flex-direction:column; gap:0.85rem; }
+  .contact-row { display:flex; align-items:center; gap:0.7rem; font-size:0.96rem; }
+  .contact-row .icon { width:34px; height:34px; border-radius:10px; background:rgba(22,163,74,0.12);
+    color:var(--accent); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .contact-row a { color:var(--text); text-decoration:none; font-weight:500; }
+  footer { text-align:center; color:var(--muted); font-size:0.8rem; padding:1.5rem; }
+  #ar, #en { display:none; }
+  #ar.show, #en.show { display:block; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="mark">J</div>
+  <h1 id="title">سياسة الخصوصية</h1>
+  <p id="subtitle">تطبيق Jarda — إدارة المخزون والتبريد للمطاعم</p>
+  <div class="lang-tabs">
+    <button id="btn-ar" class="active" onclick="showLang('ar')">العربية</button>
+    <button id="btn-en" onclick="showLang('en')">English</button>
+  </div>
+</div>
+
+<main>
+<div id="ar" class="show">
+  <div class="updated">آخر تحديث: 27 سبتمبر 2026</div>
+  <section><p>نحن بفريق <strong>Jarda</strong> نحترم خصوصيتك، وهاي السياسة بتشرحلك بوضوح شو البيانات يلي بنجمعها من خلال التطبيق، وليش، وكيف بنحافظ عليها. باستخدامك للتطبيق، أنت موافق على هالسياسة.</p></section>
+  <section>
+    <h2><span class="num">1</span> البيانات يلي بنجمعها</h2>
+    <div class="card">
+      <p><strong>بيانات الحساب:</strong></p>
+      <ul>
+        <li>اسم صاحب العمل، رقم التلفون و/أو البريد الإلكتروني (لحساب المدير)</li>
+        <li>اسم الموظف ورقم حساب مخصص (لحسابات الموظفين)</li>
+        <li>الرمز السري (PIN) — يُخزَّن مشفّراً بالكامل، ما حدا يقدر يشوفه حتى نحنا</li>
+      </ul>
+      <p><strong>بيانات النشاط التجاري:</strong></p>
+      <ul>
+        <li>اسم المطعم/العمل</li>
+        <li>بيانات البرادات (الأسماء، درجات الحرارة المسجّلة، حالة الاتصال)</li>
+        <li>بيانات المخزون (المنتجات، الكميات، الوحدات)</li>
+        <li>الطلبيات، الموردين، سجلات التالف والاستهلاك، الجرد الدوري، طلبات النواقص</li>
+        <li>جداول دوام الموظفين</li>
+      </ul>
+      <p><strong>بيانات تقنية:</strong></p>
+      <ul><li>رمز الجهاز لإرسال الإشعارات (عبر خدمة Firebase التابعة لغوغل)</li></ul>
+    </div>
+  </section>
+  <section>
+    <h2><span class="num">2</span> كيف بنستخدم هالبيانات</h2>
+    <ul>
+      <li>لتشغيل ميزات التطبيق الأساسية (إدارة المخزون، تنبيهات الحرارة، الطلبيات...)</li>
+      <li>لإرسال إشعارات فورية عند حدوث تنبيه (متل خروج براد عن النطاق الآمن)</li>
+      <li>لتحسين أداء التطبيق وإصلاح الأعطال</li>
+      <li>ما بنبيع ولا بنأجّر بياناتك لأي طرف ثالث لأغراض تسويقية إطلاقاً</li>
+    </ul>
+  </section>
+  <section>
+    <h2><span class="num">3</span> أين بتُخزَّن بياناتك</h2>
+    <p>بياناتك مخزّنة على خوادم سحابية آمنة (قواعد بيانات مشفّرة الاتصال HTTPS)، ومعزولة بالكامل عن بيانات أي عمل تاني مستخدم للتطبيق — ما في أي طريقة يشوف فيها عمل تاني بياناتك.</p>
+  </section>
+  <section>
+    <h2><span class="num">4</span> مشاركة البيانات مع أطراف ثالثة</h2>
+    <p>بنستخدم <strong>Firebase Cloud Messaging</strong> (خدمة تابعة لغوغل) فقط لإرسال الإشعارات الفورية لجهازك. راجع <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة خصوصية غوغل</a> لمزيد من التفاصيل.</p>
+  </section>
+  <section>
+    <h2><span class="num">5</span> الاحتفاظ بالبيانات وحذفها</h2>
+    <p>بنحتفظ ببياناتك طول ما حسابك نشط. تقدر تطلب حذف حسابك وكل بياناتك بشكل نهائي بالتواصل معنا مباشرة عبر معلومات التواصل بالأسفل.</p>
+  </section>
+  <section>
+    <h2><span class="num">6</span> خصوصية الأطفال</h2>
+    <p>هالتطبيق موجّه لأصحاب وموظفي المطاعم البالغين، وما مصمّم أو موجّه للأطفال تحت سن 13 سنة، وما بنجمع بيانات مقصودة منهم.</p>
+  </section>
+  <section>
+    <h2><span class="num">7</span> حقوقك</h2>
+    <ul>
+      <li>تقدر تطلب نسخة من بياناتك المخزّنة</li>
+      <li>تقدر تطلب تصحيح أي بيانات غير دقيقة</li>
+      <li>تقدر تطلب حذف حسابك وبياناتك بالكامل بأي وقت</li>
+    </ul>
+  </section>
+  <section>
+    <h2><span class="num">8</span> تحديثات هالسياسة</h2>
+    <p>ممكن نحدّث هالسياسة من وقت لآخر. أي تغيير جوهري رح نعلمك فيه من خلال التطبيق نفسه أو عبر التواصل المباشر.</p>
+  </section>
+  <section>
+    <h2><span class="num">9</span> تواصل معنا</h2>
+    <div class="contact">
+      <div class="contact-row"><div class="icon">✆</div><a href="tel:+971528781241" dir="ltr">+971 52 878 1241</a></div>
+      <div class="contact-row"><div class="icon">✉</div><a href="mailto:alyusef993@gmail.com" dir="ltr">alyusef993@gmail.com</a></div>
+    </div>
+  </section>
+</div>
+
+<div id="en" class="en">
+  <div class="updated">Last updated: September 27, 2026</div>
+  <section><p>At <strong>Jarda</strong>, we respect your privacy. This policy explains clearly what data we collect through the app, why, and how we protect it. By using the app, you agree to this policy.</p></section>
+  <section>
+    <h2><span class="num">1</span> Information We Collect</h2>
+    <div class="card">
+      <p><strong>Account data:</strong></p>
+      <ul>
+        <li>Business owner's name, phone number and/or email (manager account)</li>
+        <li>Staff member's name and assigned account number (staff accounts)</li>
+        <li>PIN code — stored fully encrypted; no one, including us, can view it</li>
+      </ul>
+      <p><strong>Business operational data:</strong></p>
+      <ul>
+        <li>Restaurant/business name</li>
+        <li>Fridge data (names, recorded temperatures, connection status)</li>
+        <li>Inventory data (products, quantities, units)</li>
+        <li>Purchase orders, suppliers, waste/consumption logs, periodic stock counts, shortage requests</li>
+        <li>Staff work schedules</li>
+      </ul>
+      <p><strong>Technical data:</strong></p>
+      <ul><li>Device token for push notifications (via Google's Firebase service)</li></ul>
+    </div>
+  </section>
+  <section>
+    <h2><span class="num">2</span> How We Use This Data</h2>
+    <ul>
+      <li>To operate the app's core features (inventory management, temperature alerts, orders...)</li>
+      <li>To send instant notifications when an alert occurs (e.g. a fridge going out of the safe range)</li>
+      <li>To improve app performance and fix issues</li>
+      <li>We never sell or rent your data to any third party for marketing purposes</li>
+    </ul>
+  </section>
+  <section>
+    <h2><span class="num">3</span> Where Your Data Is Stored</h2>
+    <p>Your data is stored on secure cloud servers (HTTPS-encrypted connections), fully isolated from any other business using the app — there is no way for another business to see your data.</p>
+  </section>
+  <section>
+    <h2><span class="num">4</span> Sharing Data With Third Parties</h2>
+    <p>We use <strong>Firebase Cloud Messaging</strong> (a Google service) solely to send push notifications to your device. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> for more details.</p>
+  </section>
+  <section>
+    <h2><span class="num">5</span> Data Retention & Deletion</h2>
+    <p>We retain your data as long as your account is active. You may request permanent deletion of your account and all data by contacting us directly using the information below.</p>
+  </section>
+  <section>
+    <h2><span class="num">6</span> Children's Privacy</h2>
+    <p>This app is intended for adult restaurant owners and staff, and is not designed for or directed at children under 13. We do not knowingly collect data from them.</p>
+  </section>
+  <section>
+    <h2><span class="num">7</span> Your Rights</h2>
+    <ul>
+      <li>Request a copy of your stored data</li>
+      <li>Request correction of any inaccurate data</li>
+      <li>Request full deletion of your account and data at any time</li>
+    </ul>
+  </section>
+  <section>
+    <h2><span class="num">8</span> Changes to This Policy</h2>
+    <p>We may update this policy from time to time. Any material change will be communicated through the app itself or via direct contact.</p>
+  </section>
+  <section>
+    <h2><span class="num">9</span> Contact Us</h2>
+    <div class="contact">
+      <div class="contact-row"><div class="icon">✆</div><a href="tel:+971528781241" dir="ltr">+971 52 878 1241</a></div>
+      <div class="contact-row"><div class="icon">✉</div><a href="mailto:alyusef993@gmail.com" dir="ltr">alyusef993@gmail.com</a></div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer>© 2026 Jarda. All rights reserved. — جميع الحقوق محفوظة.</footer>
+
+<script>
+function showLang(lang) {
+  document.getElementById('ar').classList.toggle('show', lang === 'ar');
+  document.getElementById('en').classList.toggle('show', lang === 'en');
+  document.getElementById('btn-ar').classList.toggle('active', lang === 'ar');
+  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  document.documentElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
+  document.getElementById('title').textContent = lang === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy';
+  document.getElementById('subtitle').textContent = lang === 'ar' ? 'تطبيق Jarda — إدارة المخزون والتبريد للمطاعم' : 'Jarda App — Fridge & Inventory Management for Restaurants';
+}
+</script>
+</body>
+</html>
